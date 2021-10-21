@@ -1,7 +1,7 @@
 // define an array 
 tasks = [
   { name: "Wake up", isCompleted: true},
-  { name: "Drink coffe", isCompleted: false },
+  { name: "Drink coffee", isCompleted: false },
   { name: "Code", isCompleted: true },
 ];
 

@@ -2,22 +2,64 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: bisque;
+    background-color: rgb(219, 219, 219);
+       
+
 }
 
 body {
-    width: 70ch;
+    width: 100ch;
     height: 70%;
-  padding: 0;
-  margin: 2rem 7rem ;
+  
+  margin: 10px 20% ;
   display: flex;
-  background-color: beige;
+  flex-direction: row;
+  
 }
 
 .container {
-  width: 90ch;
-  height: 90%;
-    margin: 14px 5px;
-    border: 1px solid black;
+  width: 80ch;
+  height: 40ch;
+    margin: 14px 90px;
+    padding: 30px;
+    border: 3px solid rgb(252, 249, 249);
+    border-radius: 13px;
+    color: white;
+    background-color: rgb(43, 41, 41);
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+.myTasks{
+    margin: 1rem ;
+   
+}
+li{
+    
+    margin: 13px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
 }
 
+
+ul{
+    list-style-type: none;
+     background-color: white;
+     
+    
+}
+
+button{
+   background-color: white;
+   padding: 4px;
+   border-radius: 3px;
+}
+
+input{
+    font-size: 25px;
+    background-color: white;
+}
+
+#btn2 ,#btn3 {
+    font-size: 25px;
+}
