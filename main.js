@@ -5,16 +5,17 @@ tasks = [
   { name: "Code", isCompleted: true },
 ];
 
-
-
-
-/// the Main function 
+  
+  /// the Main function 
 const rinder =()=>{
    $("ul").html ("");
+   let counter = 0;
+
     for (let i = 0; i < tasks.length; i++) {
       $("#mylist").append(`<li> ${ tasks[i].name}`)
-
-      
+      // counter = (tasks[i].isCompleted === false).length;  /// i tried to do a counter 
+      // $("span").append(counter); 
+        
     }
 }
 rinder();
@@ -46,7 +47,9 @@ let notCompletedArr= [];
     for (let i = 0; i < tasks.length; i++) {
    if (tasks[i].isCompleted === false) {
       tasks = notCompletedArr.push(tasks[i]);    
-
+  }
+  else {
+    tasks[i].css("text-decoration", "line-through");
   }
 } 
 })
